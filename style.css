@@ -1,0 +1,367 @@
+*
+{
+ margin:0;
+ border:border-box;
+ font-family: Arial, Helvetica, sans-serif; 
+}
+.navbar{
+  color: white;
+  height: 60px;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.border{
+  border: 1.5px solid transparent;
+}
+.border:hover{
+  border: 1.5px solid white;
+}
+  /*box 1*/
+.navlogo{
+  width: 110px;
+  height: 50px;
+  
+}
+.logo{
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+  /*box  2*/
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+.Deliver{
+  font-size: .85rem;
+  color: #cccccc;
+  margin-left: 13px;
+}
+.location{
+  font-size: 1rem;
+  margin-left: 3px;
+}
+/*box-3*/
+.nav-search{
+  height: 40px;
+  width: 720px;
+  background-color: #0f1111;
+  display: flex;
+  
+}
+.alloption{
+  width: 45px;
+  height: 40px;
+  background-color: #f3f3f3;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-align: center;
+}
+.search-bar{
+  width: 100%;
+  font-size: .97rem;
+}
+.search-icon{
+  width: 45px; 
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #f18832;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f1111;
+  font-size: 1.29rem;
+}
+.borders{
+  border: 1.5px solid transparent;
+}
+.borders :hover{
+  border: 1.5px solid #f18832;
+}
+/*box 4*/
+.language{
+  width: fit-content;
+  display: flex;
+}
+.flag{
+  background-image: url(2560px-Flag_of_the_United_States.svg.png);
+  background-size: cover;
+  width: 30px;
+  height: 20px;
+}
+.en p{
+  font-weight: bolder;
+}
+.arrow{
+    size: 1rem;
+    margin-left: 5px;
+}
+  /*box 5*/
+.account{
+  width: fit-content;
+  background-color: #0f1111;
+  
+}
+.sign-in{
+  font-size: .79rem;
+  color: white;
+  text-decoration: none;
+}
+.Orders{
+  font-size: .89rem;
+  font-weight: bold;
+  display: flex;
+}
+/*box 6*/
+.Returns{
+  background-color: #0f1111;
+  width: fit-content;
+}
+.return{
+  font-size: .79rem;
+}
+.return-order{
+  font-size: .89rem;
+  font-weight: bold;
+}
+/*box 7*/
+.Cart{
+  width:fit-content;
+  background-color: #0f1111;
+  display: flex;
+}
+.cart-icon{
+  font-size: large;
+}
+.cart{
+  font-size: .89rem;
+  font-weight: bold;
+  margin-top: 7px
+}
+/*panel*/
+.panel{
+  width:auto;
+  height: 40px;
+  background-color: #1b2433;
+  display: flex;
+}
+.panel-all{
+  width: 50px;
+  height: 40px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10px;
+}
+.panel-all-2{
+  font-weight:light;
+  margin-left: 4px;
+  font-size: smaller;
+}
+.panel-ops p{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-left :15px;
+  color: white;
+  text-decoration: none;
+}
+.panel-ops{
+  display: flex;
+  font-weight: lighter;
+  width: 73%;
+}
+.panel-deals{
+  color: white;
+  align-items: center;
+  display: flex;
+}
+.panel-deals p{
+  font-weight: 600;
+}
+/*HERO_PAGE*/
+.hero-section{
+  height: 300px;
+  background-image: url(hero_image.jpg);
+  background-size: cover;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+
+}
+.hero-mgs{
+  width: 95%;
+  height: 38px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  font-weight: lighter;
+  font-size: .85rem;
+}
+.hero-mgs a{
+  color: #007185;
+}
+/*Shop-content*/
+.shops{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f3f3f3;
+}
+.box{
+  width: 22%;
+  height: 420px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.logo0{
+  background-image: url(box8_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+.logo1{
+  background-image: url(box2_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+.logo2{
+  background-image: url(box4_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+.logo3{
+  background-image: url(box5_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+.logo4{
+  background-image: url(box3_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+.logo5{
+  background-image: url(box6_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+.logo6{
+  background-image: url(box7_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+.logo7{
+  background-image: url(box1_image.jpg);
+  background-size: cover;
+  height: 340px;
+}
+/*Bottom panel*/
+.panel-bottom{
+  height: 600px;
+  background-color:#232f3E;
+}
+.panel-sign-in{
+  height: 150px;
+  border-top: 1.2px solid #575757;
+  border-bottom: 1.2px solid #575757;
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.rem{
+  color: #1b2433;
+  padding: 5px;
+  font-size :0.9rem;;
+}
+.signin a{
+  width: 150px;
+  height: 30px;
+  color: #232f3E;
+  background-color: #f18832;
+  text-decoration: none;
+  border-radius: 3px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size :0.95em;;
+}
+.log-in{
+  height: fit-content;
+  margin-top: 5px;
+  font-size: small;
+  color: #232f3E;
+  display: flex;
+  flex-direction: row;
+}
+.log-in a{
+  text-decoration: none;
+  color:#007185;
+}
+.back{
+  width: 100%;
+  height: 40px;
+  background-color: #2a3746;
+  font-size: .90rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.last{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-1{
+  width: 250px;
+  height: fit-content;
+  color: white;
+  padding-top: 35px;
+  padding-left: 35px;
+  margin-left : 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box-2{
+  width: 250px;
+  height: fit-content;
+  color: white;
+  padding-top: 35px;
+  padding-left: 35px;
+  margin-left : 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box-3{
+  width: 250px;
+  height: fit-content;
+  color: white;
+  padding-top: 35px;
+  padding-left: 35px;
+  margin-left : 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box-4{
+  width: 250px;
+  height: fit-content;
+  color: white;
+  padding-top: 35px;
+  padding-left: 35px;
+  margin-left : 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
